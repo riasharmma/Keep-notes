@@ -1,0 +1,1 @@
+const currdate=new Date().getFullYear();
