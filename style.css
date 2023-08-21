@@ -1,46 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     /* color: white; */
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
+    ;
 }
-header{
+
+header {
     margin: 0 0px;
     padding: 19px 24px;
-    background-color: rgb(245 218 30);;
-    box-shadow:1px 3px 13px 0px rgb(167 153 153);
+    background-color: rgb(245 218 30);
+    ;
+    box-shadow: 1px 3px 13px 0px rgb(167 153 153);
 }
-header h1{
-    color: white;  
-    text-shadow: 2px 2px 4px #000000;;
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    ;
 }
-.notes{
-    
-    margin: 22px 39px ;
+
+.notes {
+
+    margin: 22px 39px;
     width: 275px;
     padding: 12px 20px;
     border-radius: 5px;
-    background-color:  #ffffea;;
-    box-shadow:0px -1px 6px 0px rgb(167 153 153);
+    background-color: #ffffea;
+    ;
+    box-shadow: 0px -1px 6px 0px rgb(167 153 153);
     float: left;
-    font-family:'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
-.notes>h1{
+
+.notes>h1 {
     margin: 0px auto;
 }
-.notes p{
+
+.notes p {
     font-size: 20px;
     margin: 14px auto;
 }
-footer{
+
+footer {
     position: absolute;
     text-align: center;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px #000000 ;
+    text-shadow: 2px 2px 4px #000000;
     font-size: 22px;
+}
+
+.font-3em {
+    font-size: 3em;
+    color: #003333;
+}
+
+.disp-block {
+    display: block;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.top-85px {
+    position: relative;
+    top: 85px;
+}
+
+.no-border {
+    border: none;
+}
+
+.w-45px {
+    display: block;
+    width: 4em;
+}
+
+.h-45px {
+    height: 4em;
 }
